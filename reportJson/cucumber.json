@@ -1,0 +1,67 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Share video with sucessful user",
+        "description": "",
+        "id": "send-mail;share-video-with-sucessful-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the actor wants to recreate with a soccer video",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the actor wants to share the video in this personal social network",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "you should see n your wall that video has been shared",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MailVivaAir"
+          },
+          {
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Send Mail",
+    "description": "    As an end user,\n    I need to enter username and password,\n    to know if he enters.",
+    "id": "send-mail",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Despliegue.feature",
+    "tags": [
+      {
+        "name": "@MailVivaAir",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
